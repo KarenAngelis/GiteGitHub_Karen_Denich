@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git e GitHub</title>
+  </head>
+  <body>
+    <h1>Criando Repositório</h1>
+    <img src="./Img/transferir.png" alt="Imagem Git" />
+    <p>
+      Primeiro passo será criar um repositório no GitHub como na figura abaixo:
+    </p>
+    <img src="./Img/Screenshot_29.png" alt="Telagit" />
+    <h2>Git Init</h2>
+    <p>
+      Após criar um repositório, precisamos criar uma pasta para enviar ao
+      Github e dizer que esta pasta é um repositório. Basta digitar no terminal
+      git init
+    </p>
+    <h2>Git remote add origin http: o link do github será colada aqui</h2>
+    <p>
+      Com este comando, estamos informando que a pasta do meu computador está
+      vinculada ao repositório criado do GitHub
+    </p>
+    <h1>Adicionando as Mudanças</h1>
+    <h2>Git Status</h2>
+    <p>
+      É para verificar se o git reconheceu as mudanças feitas no seu terminal.
+      Se ocorrer algum erro, é possível fazer a validação e corrigir.
+    </p>
+    <p>
+      Se ao gerar um git status aparecer um "untracked file", quer dizer que o
+      Git sabe que tem um arquivo lá, mas que esse arquivo não estpa
+      versionado(adicionado) ainda.
+    </p>
+    <h2>git add .</h2>
+    <p>
+      Essa ação adiciona todos os arquivos abertos, ou poderá adicionar um só
+      arquivo realizando um "git add "nome do arquivo". Quando gerar o git
+      status, já não apresentará o erro.
+    </p>
+    <h1>Commitando Mudanças</h1>
+    <p>
+      É um comando que agrupa em um único pacore todas as adições e modificações
+      que você fez
+    </p>
+    <h2>git commit -m "mensagem do commit"</h2>
+    <p>
+      Os programadores geralmente usam um padrão para dizer oq ue foi feito
+      naquelee commit. É viável padronizar sempre iniciando com um verbo "Cria
+      código de leitura"
+    </p>
+  </body>
+</html>
